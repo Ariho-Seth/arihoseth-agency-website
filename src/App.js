@@ -5,14 +5,10 @@ import { About } from './pages/About';
 import { Services } from './pages/Services';
 import { TalkBusiness } from './pages/TalkBusiness';
 
-
-
-
 function App() {
-
-
   return (
     <div className="App">
+      
       
       <Routers>
             <NavigationBar />
