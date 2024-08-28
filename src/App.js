@@ -27,13 +27,9 @@ function App() {
     </div>
   );
 }
-
-
-
-
-
 export default App;
-
+// this is the Navigation link componet.
+// I made it a component because I thought i was gotta be calling it in the other classes/ compnets i wanted to have it 
 export const NavigationBar=()=>{
   
   return(
