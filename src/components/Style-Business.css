@@ -1,0 +1,20 @@
+@media only screen and (max-width:450px) {
+    .businessSection{
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .businessSection button{
+        width: max-content;
+        font-size: 15px;
+        padding: 10px;
+        align-self: center;
+        border-radius: 5px;
+        border: none;
+        color: aliceblue;
+        background-color: dodgerblue;
+        
+    }
+}

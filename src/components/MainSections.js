@@ -4,14 +4,17 @@ import * as yup from "yup";
 import { useRef, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from "@hookform/resolvers/yup"
+import timerIcon from './TIMER.jpeg';
 
 
 export const Header= ()=>{
     return(
-    <div className="header-Section" style={{backgroundImage:"URL('./media/rotate.JPG')"}}>
+        
+    <div className="header-Section" >
+        
             <div className="main-title"> Ariho Seth Agency</div>
             <div className="motto"> Scale Your business</div>
-            
+           
         </div>
     )
 }
@@ -22,42 +25,16 @@ export const StickyHeader=()=>{
     return(
         <div className="sticky-header">
             <div id='sub-title'>Ariho Seth Agency </div>
-            
+         
                     
         </div>
     )
   }
 
-const HandleClick= (suggestion)=>{
+const HandleClick= ()=>{
+    console.log("I have Subscribed!")
     
-    
-    const schema = yup.object().shape({
-        userEmail: yup.string().required().email()
-            
-    })
-    
-    const {register, handleSubmit} = useForm({
-        resolver: yupResolver(schema),
-    });
-    console.log(suggestion+" is the message")
-    const onSubmit=(data)=>{
-        console.log("Hiello world")
-    }
-     if (suggestion !== null) {
-        const userSuggestion= suggestion;
-        const userEmail= null;
-            <div className='emailTracker'>
-                    return(
-                        <form onSubmit={ handleSubmit(onSubmit) } >
-                            <input type='email' ref={userEmail} {...register("userEmail")}/>
-                        </form>
-                         )
-            </div>
-        
-     } else {
-        <p>Please enter suggestion to Submit!</p>
-        
-     }
+   
     
 }
 
@@ -67,10 +44,20 @@ export const HelpUs=()=>{
  
     return(
         <div className="helpus">
-                <p>Help us improve Our Services</p> 
-                <input type='text' placeholder='write your suggestion here...' id="message-pane" value={userSuggestion} onChange={(event)=>{
-                  setUserSuggestion ( event.target.value)}}/> <br />
-                 <button onClick={ ()=> HandleClick(userSuggestion) }>Submit</button>
+                <p>Every after 7 days, i send an email news letter -ie <span id='concetrate' style={{color:'dodgerblue'}}>Concetrate,</span> This is where i get to share what I've learned throughout the week,
+                    what I enjoyed, and what brought me down such that we can learn from every lesson that I've drawn from the experiences
+                    {/* At the moment, thois may not sound helpfull, but at a time <b>t,</b> you'll refer to this email or refer a friend to read content from this newsletter
+                    because everything here is based on real-world experience and maybe applicable in one's life any time from now */}
+                    
+                </p> 
+                <input type='text' placeholder='Your name...'  id="message-pane"/><br />
+                <input type='text' placeholder='Your e-mail address...' id="message-pane" /> <br />
+               <span id='checker'>
+                        <input type='checkbox' />
+                        &nbsp;I acknowledge the privacy information on the Terms & Conditions Page.
+               
+               </span>
+                <button>Subscribe</button>
         </div>
     )
 }
