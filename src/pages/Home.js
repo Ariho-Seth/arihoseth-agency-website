@@ -40,8 +40,6 @@ const Content=()=>{
                                 
 
                     </div>
-             
-            
                
              </div>
 
