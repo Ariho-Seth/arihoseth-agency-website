@@ -31,12 +31,14 @@
 .seth-pic{
     height: 515px;
     width: 100%;
-    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 img{
     background-position: top;
     height: 430px;
-    width: 100%;
+    width: 320px;
     border-radius: 20px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 1);
     /* filter: drop-shadow(12px 12px 16px rgb(23, 52, 89)); */
