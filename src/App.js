@@ -5,12 +5,19 @@ import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Services } from './pages/Services';
 import { TalkBusiness } from './pages/TalkBusiness';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { fas, far, fal, fass, fasds } from '@awesome.me/kit-KIT_CODE/icons'
+
 
 function App() {
   return (
     <div className="App">
       <Navigator />
-
+      {/* <FontAwesomeIcon icon={fas.faHouse} />
+                <FontAwesomeIcon icon={far.faMouse} />
+                <FontAwesomeIcon icon={fal.faCheese} />
+                <FontAwesomeIcon icon={fass.faCat} />
+                <FontAwesomeIcon icon={fasds.faDog} /> */}
 
     </div>
   );
@@ -45,7 +52,7 @@ export const NavigationBar = () => {
     <div className="navigation">
       <Header />
       <button className="navigationButton">Menu</button>
-      <div className="navigationAnchor">
+      <div className="navigationAnchor" >
         <Link to="/">Home</Link>
         <Link to="/About">About</Link>
         <Link to="/Services">Services</Link>

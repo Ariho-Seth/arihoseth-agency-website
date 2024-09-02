@@ -3,7 +3,7 @@ import { useState } from "react"
 
 import '../App.css';
 import '../components/Style-Components.css';
-import '../components/Style-Pages.css';
+import '../components/Style-Home.css';
 import { Link } from "react-router-dom";
 import { Header, Footer, HelpUs } from "../components/MainSections"
 
@@ -45,7 +45,7 @@ const Content = () => {
             </div>
 
             <div className="work">
-                <div className="our-work">
+                <div className="our-work" >
                     <h2>What we do?</h2>
                     <p> <b>Ariho Seth Agency</b> is a company that helps businesses and individuals to leverage
                         social media platforms to achieve their Marketing and business goals
@@ -56,11 +56,12 @@ const Content = () => {
                 </div>
 
 
+
                 <div className="moreofUs" >
                     <h2>Want More?</h2>
                     <p>We provide services to help businesses, organisations and individuals promote their products,
-                        services or brand on social media platforms
-                        Assit companies in planing and implementing successful social media campagains.
+                        services or brand on social media platforms.<br />
+                        Assist companies in planing and implementing successful social media campagains.
                     </p>
                 </div>
 
@@ -68,8 +69,9 @@ const Content = () => {
 
                 <div className="whyAriho">
                     <h2>Why Choose us?</h2>
-                    <p><b>Ariho Seth Agency </b> is a specialised Agency that is aimed at particular tasks in the sector thus increasing expertise in such a field
-                        Over 2 billion people worldwide use social media
+                    <p><b>Ariho Seth Agency </b> is a specialised Agency that is aimed at particular tasks in
+                        the sector thus increasing expertise in such a field.<br />
+                        Over 2 billion people worldwide use social media so
                         We bring you close and in contact to your potential customers through social media.
                     </p>
                 </div>

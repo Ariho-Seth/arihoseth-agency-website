@@ -1,16 +1,9 @@
 import { Footer, HelpUs } from "../components/MainSections"
-
+import '../components/Style-Services.css';
 
 export const Services = () => {
     return (
         <div className="main-Services">
-
-
-
-
-
-
-
 
             <ServiceContent />
             <HelpUs />
@@ -32,7 +25,7 @@ const ServiceContent = () => {
                 as a leader in its sector
                 By establishing a strong presence on popular social media platforms, businesses can reach a wider audience and
                 introduce their brand to potential clients.</p>
-            <div className="webTraffic" style={{ backgroundImage: "URL('./media/web trafic.JPG')" }}>
+            <div className="webTraffic" >
                 <h3>Drive Website Traffic</h3>
             </div>
 

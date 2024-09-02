@@ -1,0 +1,299 @@
+@media only screen and (max-width: 450px) {
+
+    /* content section begins here */
+
+    .content-Section {
+        box-sizing: border-box;
+        background-color: azure;
+        height: fit-content;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .first-Content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .left-content {
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 15px;
+        font-style: normal;
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+    }
+
+    .seth-pic {
+        height: 515px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    img {
+        background-position: top;
+        height: 430px;
+        width: 320px;
+        border-radius: 20px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 1);
+        /* filter: drop-shadow(12px 12px 16px rgb(23, 52, 89)); */
+    }
+
+    .why-socialMedia {
+        padding: 0 8px;
+    }
+
+    .why-socialMedia h2 {
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 15px;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .why-socialMedia h3 {
+        text-align: right;
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 15px;
+        font-style: normal;
+
+    }
+
+    .why-socialMedia p {
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 15px;
+        font-style: normal;
+        margin-left: 10px;
+    }
+
+    .our-work h2 {
+        border-top-right-radius: 10px;
+        width: 250px;
+        text-align: center;
+        background-color: dodgerblue;
+    }
+
+    .our-work p {
+        margin-left: 10px;
+
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 15px;
+        font-style: normal;
+
+    }
+
+    .webTraffic {
+        height: 200px;
+        background-size: cover;
+        border-radius: 10px;
+        color: rgb(50, 46, 66);
+        font-size: large;
+    }
+
+    .moreofUs {
+
+        font-weight: bolder;
+
+
+    }
+
+    .moreofUs p {
+        color: black;
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 15px;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .moreofUs h2 {
+        border-top-right-radius: 10px;
+        width: 250px;
+        text-align: center;
+        background-color: dodgerblue;
+    }
+
+    .whyAriho {
+        padding: 10px 0;
+        color: azure;
+        background-color: dodgerblue;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+    /* content Section Starts here */
+    .content-Section {
+        box-sizing: border-box;
+        background-color: azure;
+        height: fit-content;
+        width: 100%;
+        display: inline-block;
+        padding: 50px 0;
+
+
+    }
+
+    .first-Content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .left-content {
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 15px;
+        font-style: normal;
+        font-size: 30px;
+        width: 45rem;
+        height: fit-content;
+
+    }
+
+    .seth-pic {
+        height: 515px;
+        width: 390px;
+        align-items: flex-end;
+        margin-bottom: 20px;
+    }
+
+    img {
+        height: 512px;
+        width: 384px;
+        border-radius: 20px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 1);
+        /* filter: drop-shadow(12px 12px 16px rgb(23, 52, 89)); */
+    }
+
+    .why-socialMedia {
+        padding: 0 8px;
+    }
+
+    .why-socialMedia h2 {
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 15px;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .why-socialMedia h3 {
+        text-align: right;
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 15px;
+        font-style: normal;
+
+    }
+
+    .why-socialMedia p {
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 15px;
+        font-style: normal;
+        border-radius: 10px;
+        margin-left: 10px;
+
+    }
+
+    .our-work {
+        align-self: center;
+        background-color: rgb(84, 113, 141);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-size: contain;
+
+        width: fit-content;
+        width: 70%;
+        padding: 10px 20px;
+
+    }
+
+    .our-work h2 {
+
+        font-size: 70px;
+
+        padding: 20px;
+
+        color: azure;
+        text-align: center;
+
+    }
+
+    .our-work p {
+        text-align: center;
+        color: whitesmoke;
+        margin-left: 10px;
+        font-size: 40px;
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 50px;
+        font-style: normal;
+
+
+    }
+
+
+
+    .moreofUs {
+
+        font-weight: bolder;
+
+
+    }
+
+
+
+    .moreofUs h2 {
+        border-top-right-radius: 10px;
+        font-size: 60px;
+        width: fit-content;
+        padding: 0 10px;
+        text-align: center;
+        background-color: dodgerblue;
+    }
+
+    .moreofUs p {
+
+        color: black;
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 15px;
+        font-style: normal;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .whyAriho {
+
+        padding: 10px 10px;
+        color: azure;
+        background-color: dodgerblue;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    .whyAriho h2 {
+        font-size: 70px;
+    }
+
+
+    .whyAriho p {
+        font-size: 40px;
+    }
+
+
+}

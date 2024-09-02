@@ -22,21 +22,23 @@ export const HelpUs = () => {
     const [userSuggestion, setUserSuggestion] = useState(null)
 
     return (
-        <div className="helpus">
-            <p>Every after 7 days, i send an email news letter -ie <span id='concetrate' style={{ color: 'dodgerblue' }}>Concetrate!,</span> This is where i get to share what I've learned throughout the week,
-                what I enjoyed, and what brought me down such that we can learn from every lesson that I've drawn from the experiences
-                {/* At the moment, thois may not sound helpfull, but at a time <b>t,</b> you'll refer to this email or refer a friend to read content from this newsletter
+        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around' }}>
+            <div className="helpus">
+                <p>Every after 7 days, i send an email news letter -ie <span id='concetrate' style={{ color: 'dodgerblue' }}>Concetrate!,</span> This is where i get to share what I've learned throughout the week,
+                    what I enjoyed, and what brought me down such that we can learn from every lesson that I've drawn from the experiences
+                    {/* At the moment, thois may not sound helpfull, but at a time <b>t,</b> you'll refer to this email or refer a friend to read content from this newsletter
                     because everything here is based on real-world experience and maybe applicable in one's life any time from now */}
 
-            </p>
-            <input type='text' placeholder='Your name...' id="message-pane" /><br />
-            <input type='text' placeholder='Your e-mail address...' id="message-pane" /> <br />
-            <span id='checker'>
-                <input type='checkbox' />
-                &nbsp;I acknowledge the privacy information on the Terms & Conditions Page.
+                </p>
+                <input type='text' placeholder='Your name...' id="message-pane" /><br />
+                <input type='text' placeholder='Your e-mail address...' id="message-pane" /> <br />
+                <span id='checker'>
+                    <input type='checkbox' />
+                    &nbsp;I acknowledge the privacy information on the Terms & Conditions Page.
 
-            </span>
-            <button>Subscribe</button>
+                </span>
+                <button>Subscribe</button>
+            </div>
         </div>
     )
 }

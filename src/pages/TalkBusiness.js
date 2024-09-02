@@ -1,6 +1,7 @@
 
 import { Footer, HelpUs } from '../components/MainSections';
 import '../components/Style-Business.css';
+
 export const TalkBusiness = () => {
     return (
         <div className="mainBusiness">
@@ -19,6 +20,8 @@ const BusinessContent = () => {
             <div className="newsletterSection">
 
                 <h2>News Letter</h2>
+
+
                 <p>Every after 7 days, I send an email news letter -ie <span id='concetrate' style={{ color: 'dodgerblue', fontWeight: "bold" }}>Concetrate!,</span> This is where I get to share what I've learned throughout the week,
                     what I enjoyed, and what brought me down. Such that we can learn from every lesson that I've drawn from the experiences.</p>
                 <p>At the moment, this may not sound helpful, but at a time <b>t,</b> you'll refer to this email or refer a friend to read content from this newsletter
