@@ -1,13 +1,49 @@
 @media only screen and (max-width:450px) {
     .why-socialMedia {
-        color: black;
+        
         font-family: "SUSE", sans-serif;
         font-optical-sizing: auto;
         font-weight: 15px;
         font-style: normal;
         font-optical-sizing: auto;
         text-align: center;
+        
+    }
+    .why-socialMedia h2{
+        font-family: "Protest Guerrilla", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+       
+        
+        width: 100%;
+    }
+
+    .webTraffic h3{
+        color: azure;
+    }
+    .webTraffic{
+        color: black;
+        background-color: rgb(84, 113, 141);
+        height: fit-content;
+        border-radius: 5px;
         padding: 5px;
+        font-weight: 30px;
+        box-sizing: border-box;
+      
+    }
+
+    .leadGen{
+        
+        height: fit-content;
+        width: 100%;
+        background-image: linear-gradient(dodgerblue, azure);
+        border-radius: 10px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .leadGen h3{
+       color: azure; 
+       
     }
 
 
@@ -24,6 +60,30 @@
         text-align: center;
         font-size: 40px;
         padding: 5px;
+
+
+        background-Repeat:no-repeat;
+         background-Position:right center; 
+         height: 60rem;
+         background-color: transparent;
+         border-radius: 20px;
+         background-size: 36rem 60rem;
+         border: 2px solid black;
+    }
+   
+
+    .brandAware h3{
+        font-size: 50px;
+        
+    }
+    .brandAware{
+        color: azure;
+        -webkit-text-stroke: 2px black;
+        
+    }
+    .brandAware p{
+      font-size: 60px;
+        
     }
 
     .why-socialMedia p {

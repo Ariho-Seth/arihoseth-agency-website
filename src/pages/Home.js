@@ -32,6 +32,10 @@ const Content = () => {
             <div className="first-Content">
                 <div className="left-content">
                     <p1 style={{ fontFamily: "Century Gothic", fontSize: "40px" }}>we are a <br /><b> Social Media Marketing Agency</b></p1>
+                    
+
+
+
                     <h2>Hey friends-</h2>
                     <p>I am <b>Ariho Seth,</b> A programmer, and Director  at <b>ArihoSethAgency, </b>
                         we offer different Sevices that are aimed at growing your Business and elevating it to an unbelivable level </p>

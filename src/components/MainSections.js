@@ -5,6 +5,16 @@ import { useRef, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from "@hookform/resolvers/yup"
 import timerIcon from './TIMER.jpeg';
+import { FaInstagramSquare, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+import { IoIosMail } from "react-icons/io";
+import { SlGraph } from "react-icons/sl";
+
+
+
+
+
 
 export const Header = () => {
     return (
@@ -12,7 +22,7 @@ export const Header = () => {
         <div className="header-Section" >
 
             <div className="main-title"> Ariho Seth Agency</div>
-            <div className="motto"> Scale Your business</div>
+            <div className="motto"> Scale Your business <SlGraph /></div>
 
         </div>
     )
@@ -56,12 +66,12 @@ export const Footer = () => {
                 </div>
 
                 <div className="right-side">
-                    <p>LinkedIn</p>
-                    <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>Gmail</p>
-                    <p>Twitter</p>
-                    <p>+256776826821 | +256701531754</p>
+                    <p> <FaLinkedin /> &nbsp;LinkedIn</p>
+                    <p> <FaInstagramSquare /> &nbsp; Instagram</p>
+                    <p>< FaFacebook /> &nbsp; Facebook</p>
+                    <p> <IoIosMail /> &nbsp; Gmail</p>
+                    <p> < FaXTwitter/> &nbsp; Twitter</p>
+                    <p>  <BsFillTelephoneFill /> &nbsp; +256776826821 | +256701531754</p>
 
                 </div>
 

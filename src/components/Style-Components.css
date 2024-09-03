@@ -13,9 +13,14 @@
     }
 
     .main-title {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 25px;
-        color: wheat;
+        
+        font-family: "Jost", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 22px;
+            color: white;
+          
 
     }
 
@@ -63,25 +68,27 @@
 
     .navigationButton {
         background-color: dodgerblue;
-        border: 5px solid wheat;
-        border-radius: 50%;
-        color: wheat;
+        
+        border: none;
+        color: whitesmoke;
 
-        font-size: large;
+        
         font-family: Century Gothic;
         font-weight: bolder;
     }
 
-
+   
     .navigationAnchor {
 
         position: absolute;
+       left: 8%;
         top: 69px;
-        right: 0%;
-        width: 120px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        width: 85%;
         background-color: rgb(67, 65, 82);
         height: 0;
-        transition: height 1s;
+        transition: height 0.5s;
         overflow: hidden;
         align-items: flex-end;
     }
@@ -93,6 +100,7 @@
     }
 
     .navigationAnchor a {
+        right: 50%;
         display: block;
         height: 30px;
         text-decoration: none;
@@ -101,6 +109,7 @@
         color: wheat;
 
     }
+
 
     /* blog container starts here */
     .blog-container {
@@ -295,7 +304,8 @@
         height: 30px;
         text-decoration: none;
         font-family: Century Gothic;
-
+        padding-top: 10px;
+        box-sizing: border-box;
         color: wheat;
         font-size: 35px;
 
@@ -308,7 +318,7 @@
     .navigation a:hover {
         background-color: yellow;
         color: black;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: bold;
     }
 

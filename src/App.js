@@ -5,19 +5,16 @@ import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Services } from './pages/Services';
 import { TalkBusiness } from './pages/TalkBusiness';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { fas, far, fal, fass, fasds } from '@awesome.me/kit-KIT_CODE/icons'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  faBurger } from '@fortawesome/free-solid-svg-icons'
+import { MdBusinessCenter, MdDesignServices } from "react-icons/md";
+import { FaInfoCircle, FaHome  } from "react-icons/fa";
 
 function App() {
   return (
     <div className="App">
       <Navigator />
-      {/* <FontAwesomeIcon icon={fas.faHouse} />
-                <FontAwesomeIcon icon={far.faMouse} />
-                <FontAwesomeIcon icon={fal.faCheese} />
-                <FontAwesomeIcon icon={fass.faCat} />
-                <FontAwesomeIcon icon={fasds.faDog} /> */}
+     
 
     </div>
   );
@@ -51,12 +48,12 @@ export const NavigationBar = () => {
   return (
     <div className="navigation">
       <Header />
-      <button className="navigationButton">Menu</button>
+      <button className="navigationButton"><FontAwesomeIcon icon={faBurger} /></button>
       <div className="navigationAnchor" >
-        <Link to="/">Home</Link>
-        <Link to="/About">About</Link>
-        <Link to="/Services">Services</Link>
-        <Link to="/TalkBusiness">Talk Business</Link>
+        <Link to="/"> <FaHome  /> Home</Link>
+        <Link to="/About"> <FaInfoCircle /> About</Link>
+        <Link to="/Services"> <MdDesignServices /> Services</Link>
+        <Link to="/TalkBusiness"> <MdBusinessCenter /> Talk Business</Link>
 
       </div>
 
