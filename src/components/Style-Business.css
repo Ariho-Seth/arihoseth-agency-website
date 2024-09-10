@@ -19,22 +19,52 @@
         border: none;
         color: aliceblue;
         background-color: dodgerblue;
+        
 
     }
 }
 
-@media only screen and (min-width:1440px) {
+@media only screen and (min-width:1024px) {
     .businessSection {
-        color: black;
+        
+        
         font-family: "SUSE", sans-serif;
         font-optical-sizing: auto;
-        font-weight: 15px;
+        font-weight: 30px;
         font-style: normal;
         font-optical-sizing: auto;
         text-align: center;
-        font-size: 50px;
-        padding: 5px;
+       margin: 0;
+        
+        box-sizing: border-box;
     }
+    
+        
+    
+    .newsletterSection{
+        content: "";
+        position: relative;
+        width: 100%;
+        
+        background-image: url("../media/divinegirl.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10px;
+       
+       
+        
+    }
+    .newsletterSection h2{
+        font-size: 80px;
+        
+}
+    .newsletterSection p{
+            font-size: 30px;
+            color: black
+
+    }
+
+   
 
     .businessSection p {
         font-family: "SUSE", sans-serif;
@@ -42,7 +72,7 @@
         font-weight: 15px;
         font-style: normal;
         font-optical-sizing: auto;
-        font-size: 20px;
+        
         padding-left: 10rem;
         padding-right: 10rem;
     }

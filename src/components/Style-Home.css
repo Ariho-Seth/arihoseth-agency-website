@@ -130,12 +130,17 @@
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1024px) {
+
+    
 
     /* content Section Starts here */
     .content-Section {
+
+        
         box-sizing: border-box;
         background-color: azure;
+        
         height: fit-content;
         width: 100%;
         display: inline-block;
@@ -144,37 +149,25 @@
 
     }
 
-    .first-Content {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+    .left-content{
+        text-align: center;
     }
-
-    .left-content {
-        font-family: "SUSE", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 15px;
-        font-style: normal;
-        font-size: 30px;
-        width: 45rem;
-        height: fit-content;
-
+    .left-content p1{
+            
+          font-size: 80px;
     }
+ 
 
-    .seth-pic {
-        height: 515px;
-        width: 390px;
-        align-items: flex-end;
-        margin-bottom: 20px;
-    }
+ 
 
+
+/* 
     img {
-        height: 512px;
-        width: 384px;
+       
         border-radius: 20px;
         box-shadow: 0 15px 30px rgba(0, 0, 0, 1);
         /* filter: drop-shadow(12px 12px 16px rgb(23, 52, 89)); */
-    }
+    /* } */ */
 
     .why-socialMedia {
         padding: 0 8px;
@@ -206,23 +199,49 @@
         margin-left: 10px;
 
     }
+    .work{
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
 
     .our-work {
+        box-sizing: border-box;
+        height: max-content;
+        width: 100%;
+        margin-right: 20px;
         align-self: center;
-        background-color: rgb(84, 113, 141);
+       
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        background-size: contain;
-
-        width: fit-content;
-        width: 70%;
+        justify-content: space-between;   
         padding: 10px 20px;
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .overlay2{
+        box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        opacity: 1;
+        background-color: black;
+        border-radius: 10px;
 
     }
 
     .our-work h2 {
-
+        z-index: 2;
         font-size: 70px;
 
         padding: 20px;
@@ -233,7 +252,8 @@
     }
 
     .our-work p {
-        text-align: center;
+        z-index: 2;
+        text-align: left;
         color: whitesmoke;
         margin-left: 10px;
         font-size: 40px;
@@ -246,41 +266,76 @@
     }
 
 
+   
 
     .moreofUs {
+        
+        background-image: url("../media/two.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 400px;
+        width: 900px;
+        padding: 60px;
+        border-radius: 10px;
 
-        font-weight: bolder;
-
-
+    }
+    .overlay{
+        border-radius: 10px;
+        background-color: black;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        opacity: 0.2;
+        z-index: 1;
+    }
+    .moreofUs:hover{
+        
+        height: 420px;
+        width: 920px;
+    }
+    .moreofUs p{
+        position: relative;
+        z-index: 2;
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        /* font-weight: 15px; */
+        font-style: normal;
+        text-align: center;
+        font-size: 30px;
+        
     }
 
 
 
     .moreofUs h2 {
+        position: relative;
+        z-index: 2;
         border-top-right-radius: 10px;
         font-size: 60px;
         width: fit-content;
         padding: 0 10px;
         text-align: center;
-        background-color: dodgerblue;
+        
     }
 
-    .moreofUs p {
-
-        color: black;
-        font-family: "SUSE", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 15px;
-        font-style: normal;
-        text-align: center;
-        font-size: 30px;
+   
+    .whyAriho{
+        display: flex;
+        justify-content: right;
     }
-
-    .whyAriho {
-
+    .whyAriho2 {
+        
+       
+        width: 800px;
         padding: 10px 10px;
-        color: azure;
-        background-color: dodgerblue;
+        color: dodgerblue;
+      
         text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 

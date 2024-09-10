@@ -17,7 +17,7 @@ export const TalkBusiness = () => {
 const BusinessContent = () => {
     return (
         <div className="businessSection">
-            <div className="newsletterSection">
+            <div className="newsletterSection" >
 
                 <h2>News Letter</h2>
 

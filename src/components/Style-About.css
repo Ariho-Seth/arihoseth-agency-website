@@ -10,7 +10,7 @@
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1024px) {
     .ourHistory {
         padding-right: 10rem;
         padding-left: 10rem;

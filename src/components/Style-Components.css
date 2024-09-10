@@ -13,14 +13,14 @@
     }
 
     .main-title {
-        
+
         font-family: "Jost", sans-serif;
         font-optical-sizing: auto;
         font-weight: normal;
         font-style: normal;
         font-size: 22px;
-            color: white;
-          
+        color: white;
+
 
     }
 
@@ -62,26 +62,24 @@
         display: flex;
 
 
-
-
     }
 
     .navigationButton {
         background-color: dodgerblue;
-        
+
         border: none;
         color: whitesmoke;
 
-        
+
         font-family: Century Gothic;
         font-weight: bolder;
     }
 
-   
+
     .navigationAnchor {
 
         position: absolute;
-       left: 8%;
+        left: 8%;
         top: 69px;
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 20px;
@@ -96,7 +94,6 @@
     .navigation:hover>.navigationAnchor {
         height: 115px;
 
-
     }
 
     .navigationAnchor a {
@@ -109,7 +106,6 @@
         color: wheat;
 
     }
-
 
     /* blog container starts here */
     .blog-container {
@@ -177,8 +173,6 @@
         border: none;
         color: aliceblue;
         background-color: dodgerblue;
-
-
     }
 
     /* Footer Section Starts here */
@@ -192,9 +186,6 @@
         height: fit-content;
         width: 100;
         justify-content: space-between;
-
-
-
     }
 
     .first-footer {
@@ -214,9 +205,6 @@
     .right-side {
         width: 250px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
-
     }
 
     .middle-side {
@@ -229,10 +217,11 @@
 }
 
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1024px) {
+
+
     .header-Section {
-        background-color: dodgerblue;
-        height: 300px;
+
         width: 100%;
         display: inline-block;
         display: flex;
@@ -247,7 +236,7 @@
     .main-title {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 70px;
-        color: azure;
+        color: white;
     }
 
     .motto {
@@ -258,15 +247,14 @@
 
     .navigation {
 
-
-
-
+        background-image: url("../media/teacup.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 800px;
+        background-position: center;
         width: 100%;
         display: flex;
         flex-direction: column;
-
-
-
 
     }
 
@@ -274,31 +262,19 @@
         display: none;
     }
 
-
-
-
     .navigationAnchor {
-
-
-        border-bottom-left-radius: 100px;
-        border-bottom-right-radius: 100px;
         width: 100%;
-        background-color: rgb(34, 109, 184);
         height: fit-content;
         display: flex;
         flex-direction: row;
         justify-content: center;
         height: 60px;
 
-
-
     }
-
-
 
     .navigationAnchor a {
         padding: 0 20px;
-        top: 0px;
+        top: 100px;
         left: 0px;
         position: sticky;
         height: 30px;
@@ -308,10 +284,7 @@
         box-sizing: border-box;
         color: wheat;
         font-size: 35px;
-
         height: 60px;
-
-
 
     }
 
@@ -321,11 +294,6 @@
         font-size: 40px;
         font-weight: bold;
     }
-
-
-
-
-
 
     .blog-container {
         width: 100%;
@@ -354,7 +322,6 @@
         display: flex;
         flex-direction: column;
         justify-items: spa;
-        /* color: rgb(67, 65, 82); */
         color: black;
         align-items: center;
         width: 50%;
@@ -365,26 +332,21 @@
         font-optical-sizing: auto;
         font-style: normal;
         font-size: 17px;
-
-
-
     }
 
-    .helpus input {
+    .helpus #input {
+        border-radius: 7px;
+        width: 300px;
         margin: 0px;
         font-family: Century Gothic;
-        font-size: 17px;
+        font-size: 15px;
         padding: 5px;
         border: 1px solid black;
-    }
-
-    .helpus #message-pane {
-        width: 400px;
-        border-radius: 5px;
+        margin: 5px;
 
     }
 
-    .helpus button {
+    .helpus #button {
         width: max-content;
         font-size: 20px;
         font-family: "Quicksand", sans-serif;
@@ -395,11 +357,7 @@
         border: none;
         color: aliceblue;
         background-color: dodgerblue;
-
-
     }
-
-
 
     /* Footer Section Starts here */
     .footer-Section {

@@ -1,15 +1,15 @@
 
 import './Style-Components.css';
-import * as yup from "yup";
+
 import { useRef, useState } from 'react';
-import { useForm } from 'react-hook-form';
-import { yupResolver } from "@hookform/resolvers/yup"
-import timerIcon from './TIMER.jpeg';
+
 import { FaInstagramSquare, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { SlGraph } from "react-icons/sl";
+
+import emailjs from '@emailjs/browser';
 
 
 
@@ -29,7 +29,31 @@ export const Header = () => {
 }
 
 export const HelpUs = () => {
-    const [userSuggestion, setUserSuggestion] = useState(null)
+   
+
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm('service_5c5c0xl', 'template_o2nn0il', form.current, {
+          publicKey: 'rBOnCRNirUZlr9v9k',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    };
+
+
+
+
 
     return (
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around' }}>
@@ -40,14 +64,16 @@ export const HelpUs = () => {
                     because everything here is based on real-world experience and maybe applicable in one's life any time from now */}
 
                 </p>
-                <input type='text' placeholder='Your name...' id="message-pane" /><br />
-                <input type='text' placeholder='Your e-mail address...' id="message-pane" /> <br />
-                <span id='checker'>
-                    <input type='checkbox' />
-                    &nbsp;I acknowledge the privacy information on the Terms & Conditions Page.
+                                 <form ref={form} onSubmit={sendEmail}>
+                                      
+                                        <input type="text" name="user_name" placeholder='Your name...' id='input'/><br />
+                                        <input type="email" name="user_email"  placeholder='Your Email...' id='input'/> <br />
+                                        <input type="submit" value="Subscribe" id='button'/>
+                                </form>
 
-                </span>
-                <button>Subscribe</button>
+
+
+
             </div>
         </div>
     )
