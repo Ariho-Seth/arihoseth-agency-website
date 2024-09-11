@@ -9,11 +9,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faBurger } from '@fortawesome/free-solid-svg-icons'
 import { MdBusinessCenter, MdDesignServices } from "react-icons/md";
 import { FaInfoCircle, FaHome  } from "react-icons/fa";
+import { useLocation } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Navigator />
+      <Navigator  />
      
 
     </div>
@@ -24,6 +25,7 @@ export default App;
 // I made it a component because I thought i was gotta be calling it in the other classes/ compnets i wanted to have it 
 
 const Navigator = () => {
+ 
   return (
     <div className="navigator">
 
@@ -56,10 +58,22 @@ export const NavigationBar = () => {
         <Link to="/TalkBusiness"> <MdBusinessCenter /> Talk Business</Link>
 
       </div>
-
+          <keyQuote />
+          
     </div>
   )
 }
+const KeyQuote=()=>{
+     
+ 
+    
+        return(
+          <div className='keyQuote'>
+            <div className='quoteOverlay'></div>
+                
+          </div>
+        )
 
+}
 
 

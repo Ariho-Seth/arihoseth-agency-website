@@ -54,8 +54,10 @@
     .why-socialMedia2 {
         box-sizing: border-box;
         display: flex;
+        
         flex-direction: row;
         justify-content: space-evenly;
+        flex-wrap: wrap;
         font-family: "SUSE", sans-serif;
         font-optical-sizing: auto;
         font-weight: 15px;
@@ -78,45 +80,13 @@
         text-align: left;
         padding: 10px;
         box-sizing: border-box;
-        width: 50%;
+        width:30% ;
         
        
        
     }
 
-    .webTraffic{
-        background-color: dodgerblue;
-        margin: 0 20px;
-    }
-
-    .webTraffic:hover{
-        background-color: cornflowerblue;
-        margin: 0 20px;
-        width: 53%;
-        height: 80%;
-    }
-
-
-    .leadGen{
-        background-color: cadetblue;
-    }
-    .leadGen:hover{
-        background-color: cornflowerblue;
-        margin: 0 20px;
-        width: 53%;
-        height: 80%;
-    }
-
-    .brandAware{
-        background-color: cornflowerblue;
-    }
-    .brandAware:hover{
-        background-color: cadetblue;
-        margin: 0 20px;
-        width: 53%;
-        height: 80%;
-    }
-   
+    
    
    
 
@@ -128,6 +98,49 @@
         font-optical-sizing: auto;
         font-size: 30px;
         
+    }
+    .mycontentCreation{
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        position: relative;
+        background-color: dodgerblue;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: fit-content;
+        width: 80%;
+        font-size: 25px;
+        font-weight: 300;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 1;
+
+    }
+    .mycontentCreation h2{
+        font-family: "Rubik Bubbles", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .mycontentCreation p, .mycontentCreation h2{
+        color: white;
+        position: relative;
+        z-index: 2;
+    }
+   
+    .runningAds{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        
+    }
+ 
+    .googleAds, .facebookAds{
+        width: 40%;
+        height: fit-content;
+      
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 30px;
     }
 
 

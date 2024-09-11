@@ -21,6 +21,7 @@ const ServiceContent = () => {
         <div className="why-socialMedia" >
             <h2>Why social Media Marketing?</h2>
             <div className="why-socialMedia2" >
+                    
                 <div className="brandAware" >
                         <h3>Brand Awareness</h3>
                         <p>Creating brand awareness increases market share and shortens the sales process which positions a brand
@@ -43,6 +44,37 @@ const ServiceContent = () => {
                             clients and guiding them through the purchace journey</p>
                  </div>
             </div>
+
+            <div className="mycontentCreation">
+                <div className="contentOverlay"></div>
+                <h2>Content creation</h2>
+                <p>Content tells the story of your organisation. Also called storytelling. We create content for organisations that are perfectly suited for use on social media.
+                    Our extensive analysis capabilities allow us to use this content in the best way possible and at the best possible time.<br />
+                    This ensures that there is a lot of interaction and involvemrnt for your product or service. We also work with a monthy content calender for your organisation
+                    This calender is based on extensive analysis so we can take control of your organisation when communicatng content on social media.    
+                </p>
+            </div>
+                <div className="runningAds">
+                    <div className="googleAds">
+                        <h2>Google Ads</h2>
+                       <p> Advertising is the heart of Marketing and business growth, As an Agency, we set you a platform to showcase your products and services on an extended
+                        area. We help you run adds on all google platforms like Youtube. Thus setting your products or services to potential leads that may help you generation sales<br />
+                        Running Ads can be done depending on the clients needs, target audience, and time of action.
+                        </p>
+                    </div>
+                    <div className="facebookAds">
+                        <h2>Meta Ads</h2>
+                        <p>
+                            One other to help you, your business or company generate potential leads is by running Ads across the Meta environment
+                            We help you get in touch with new client by running Ads across all meta platforms like Facebook and Instagram. Thus Providing
+                            you an opportunity talk to potential customers helping you increase your sales 
+                        </p>
+                    </div>
+                 
+
+
+            </div>
+           
         </div>
     )
 }

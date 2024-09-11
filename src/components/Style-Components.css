@@ -294,6 +294,11 @@
         font-size: 40px;
         font-weight: bold;
     }
+    .keyQuote{
+        height: 300px;
+        width: 800px;
+        background-color: aquamarine;
+    }
 
     .blog-container {
         width: 100%;
@@ -389,6 +394,29 @@
         text-align: left;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         padding: 10px 70px;
+    }
+    .right-side a{
+        color: white;
+        text-decoration: none;
+    }
+    .bottomLinks{
+        box-sizing: border-box;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bottomLinks a{
+        margin: 10px 0;
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+        font-family: Century Gothic;
+        padding:0 40px;
+        border-radius: 10px;
+
+    }
+    .bottomLinks a:hover{
+        background-color: rgb(44, 42, 42);
     }
 
 }

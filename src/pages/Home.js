@@ -5,7 +5,9 @@ import '../App.css';
 import '../components/Style-Components.css';
 import '../components/Style-Home.css';
 import { Link } from "react-router-dom";
-import { Header, Footer, HelpUs } from "../components/MainSections"
+import { Footer, HelpUs } from "../components/MainSections"
+import {useTypewriter, Cursor} from "react-simple-typewriter"
+
 
 
 
@@ -26,15 +28,21 @@ export const Home = () => {
 }
 // Content Section Starts Here!!
 
+
 const Content = () => {
-    return (
+    return(
         <div className="content-Section">
             
-
+      
 
             <div className="first-Content">
                 <div className="left-content">
-                    <p1 style={{ fontFamily: "Century Gothic" }}>we are a <br /><b> Social Media Marketing Agency</b></p1>
+                    <p1 style={{ fontFamily: "Century Gothic" }}>we are a <br />
+                        <span style={{fontWeight:"bold"}}>Social Media Marketing Agency<Cursor /></span>
+
+              
+                    
+                    </p1>
                 </div>
                
 
@@ -54,7 +62,7 @@ const Content = () => {
                 </div>
 
 
-
+                <div className="moreSection">
                 <div className="moreofUs" >
                     <div className="overlay"></div>
                     <h2>Want More?</h2>
@@ -62,12 +70,9 @@ const Content = () => {
                         services or brand on social media platforms.<br />
                         Assist companies in planing and implementing successful social media campagains.
                     </p>
-                </div>
+                     </div>
 
-                </div>
-
-                <div className="whyAriho">
-                    <div className="whyAriho2">
+                     <div className="whyAriho2">
                     <h2>Why Choose us?</h2>
                     <p><b>Ariho Seth Agency </b> is a specialised Agency that is aimed at particular tasks in
                         the sector thus increasing expertise in such a field.<br />
@@ -75,11 +80,21 @@ const Content = () => {
                         We bring you close and in contact to your potential customers through social media.
                     </p>
                 </div>
+                    
                 </div>
+               
+
+                </div>
+
+               
+              
+                    
+                
+           
 
             </div>
        
-    )
+    )  
 }
 
 
