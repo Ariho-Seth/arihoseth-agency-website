@@ -1,12 +1,9 @@
-import { useState } from "react"
-
 
 import '../App.css';
 import '../components/Style-Components.css';
 import '../components/Style-Home.css';
-import { Link } from "react-router-dom";
 import { Footer, HelpUs } from "../components/MainSections"
-import {useTypewriter, Cursor} from "react-simple-typewriter"
+
 
 
 
@@ -37,12 +34,12 @@ const Content = () => {
 
             <div className="first-Content">
                 <div className="left-content">
-                    <p1 style={{ fontFamily: "Century Gothic" }}>we are a <br />
-                        <span style={{fontWeight:"bold"}}>Social Media Marketing Agency<Cursor /></span>
+                    <p>we are a <br />
+                        <span style={{fontWeight:"bold"}}>Social Media Marketing Agency</span>
 
               
                     
-                    </p1>
+                    </p>
                 </div>
                
 
@@ -77,54 +74,13 @@ const Content = () => {
                     <p><b>Ariho Seth Agency </b> is a specialised Agency that is aimed at particular tasks in
                         the sector thus increasing expertise in such a field.<br />
                         Over 2 billion people worldwide use social media so
-                        We bring you close and in contact to your potential customers through social media.
+                        We bring you close and in contact to your potential leads through social media.
                     </p>
                 </div>
-                    
-                </div>
-               
-
-                </div>
-
-               
-              
-                    
-                
+            </div>
            
 
-            </div>
-       
-    )  
-}
 
-
-// Blog Section Starts Here!!
-export const BlogSection = () => {
-
-    const [blogs, setBlogs] = useState([
-        { title: "The Fanciest Apple Product", authour: "Maques Brownlee", id: 1 },
-        { title: "How to type lightening fast", authour: "Ali Abdaal", id: 2 },
-        { title: "Tips on Productivity! ", authour: "Ariho Seth", id: 3 },
-        { title: "The Financial Freedom longed for! ", authour: "Ali Abdaal", id: 4 }
-
-    ])
-
-    return (
-        <div className="blog-container">
-            {blogs.map((blogs) => {
-
-                return (
-
-                    <div className="blog-box">
-
-                        {blogs.title}<br />
-                        Authour: <b>{blogs.authour} </b> <br />
-                        <Link to="/About">
-                            <center>  <button>View Blog</button> </center>
-                        </Link>
-                    </div>
-                )
-            })}
         </div>
-    )
-}
+    </div>
+    )}

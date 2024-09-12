@@ -33,7 +33,7 @@ const BusinessContent = () => {
             <div className="contentCreation">
                 <h2>Content Creation</h2>
                 <p>Content tells the story of your organization. Also called story telling. we create content for organizations that is perfectly suited for use on social media<br />
-                    Our Extensive analysis capabilities allow us to use this content in the best posinle way  and at the best possible timr. This ensures that there is a lot is interaction and
+                    Our Extensive analysis capabilities allow us to use this content in the best possible way  and at the best possible time. This ensures that there is a lot is interaction and
                     involvement for your product
                 </p>
                 <button>Request Service</button>
@@ -42,7 +42,7 @@ const BusinessContent = () => {
             <div className="leadGenerator">
                 <h2>Lead Generation</h2>
                 <p> Social Media Management can directly contribbute to lead generation and sales by capturing the intrests of potential
-                    clients and guiding them through the purchace journey</p>
+                    clients and guiding them through the purchase journey</p>
                 <button>Request Service</button>
             </div>
 

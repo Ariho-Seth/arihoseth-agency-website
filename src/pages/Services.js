@@ -21,6 +21,7 @@ const ServiceContent = () => {
         <div className="why-socialMedia" >
             <h2>Why social Media Marketing?</h2>
             <div className="why-socialMedia2" >
+                <div className="socialOverlay"></div>
                     
                 <div className="brandAware" >
                         <h3>Brand Awareness</h3>
@@ -70,9 +71,24 @@ const ServiceContent = () => {
                             you an opportunity talk to potential customers helping you increase your sales 
                         </p>
                     </div>
-                 
 
+            </div>
+            <div className="website-design">
+                <h2>Website-design</h2>
+                      <p>  Websites are powerful tools to businesses as far as marketing is concerned, they help you showcase your products and services to a wider
+                        platform, thus setting you a chance to interact with your clients and increasing your sales.<br />
+                        We help you build a commercial website that will ease the work of advertising and talking to clients, marketing and strategizing for for 
+                        target audience.
+                        </p>
+            </div>
+            <div className="accountManagement">
+                <div className="accountOverlay"></div>
+                <h2>Social Media Account Management</h2>
+                <p>
+                    We help you create, grow, track, and manage your social media handles ie Tiktok, Instagram, LinkedIn, Facebook ..., by undersatnding the anallytics 
+                    and increasing your target audience over a reasonable amount of time.
 
+                </p>
             </div>
            
         </div>

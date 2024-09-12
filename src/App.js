@@ -1,5 +1,5 @@
 import './App.css';
-import { Header, Footer, HelpUs } from './components/MainSections';
+import { Header } from './components/MainSections';
 import { BrowserRouter as Routers, Routes, Route, Link } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faBurger } from '@fortawesome/free-solid-svg-icons'
 import { MdBusinessCenter, MdDesignServices } from "react-icons/md";
 import { FaInfoCircle, FaHome  } from "react-icons/fa";
-import { useLocation } from 'react-router-dom';
+
 
 function App() {
   return (
@@ -58,22 +58,10 @@ export const NavigationBar = () => {
         <Link to="/TalkBusiness"> <MdBusinessCenter /> Talk Business</Link>
 
       </div>
-          <keyQuote />
           
     </div>
   )
 }
-const KeyQuote=()=>{
-     
- 
-    
-        return(
-          <div className='keyQuote'>
-            <div className='quoteOverlay'></div>
-                
-          </div>
-        )
 
-}
 
 

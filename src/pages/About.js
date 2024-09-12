@@ -1,5 +1,4 @@
 
-import { BlogSection } from "./Home";
 import '../components/Style-About.css';
 import { Footer, HelpUs } from "../components/MainSections";
 import { Link } from "react-router-dom";
@@ -47,16 +46,16 @@ const AboutContent = () => {
                 <div className="nextStepSection">
                     <h2>We offer a batch of services which include</h2>
                    
-                       <p> <ul>
+                        <ul>
                             <li>Lead generation</li>
                             <li>Content Creation</li>
                             <li>Social Media Account Management</li>
                             <li>Running Ads</li>
                             <li>Brand Awareness</li>                       
-                        </ul>
+                        </ul> 
                     <h4>For these and more about our Services, Visit our <Link to="/Services">Services </Link>page</h4>
 
-                    </p>
+                   
                     </div>
                 </div>
         </div>
