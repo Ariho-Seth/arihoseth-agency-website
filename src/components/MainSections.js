@@ -7,7 +7,7 @@ import { FaInstagramSquare, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
-import { SlGraph } from "react-icons/sl";
+
 import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom';
 
@@ -16,21 +16,10 @@ import { Link } from 'react-router-dom';
 
 
 
-export const Header = () => {
-    return (
 
-        <div className="header-Section" >
-
-            <div className="main-title"> Ariho Seth Agency</div>
-            <div className="motto"> Scale Your business <SlGraph /></div>
-
-        </div>
-    )
-}
 
 export const HelpUs = () => {
    
-
 
     const form = useRef();
 
@@ -43,10 +32,7 @@ export const HelpUs = () => {
         })
         .then(
           () => {
-            return(<div style={{fontFamily: "Permanent Marker, cursive", color:"black", fontSize:"15pxnpm"}}><p>Thanks for Subscribing to our newsletter</p></div>
-                
-            )
-            
+            console.log('SUCCESS!');
           },
           (error) => {
             console.log('FAILED...', error.text);
@@ -93,7 +79,7 @@ export const Footer = () => {
                     <p>Talk to Me!</p>
                     <p>Terms & Conditions</p>
                     <p>Visit Offices</p>
-                    <h2>Talk to us today!</h2>
+                    <h2 >Talk to us today!</h2>
                 </div>
 
                 <div className="right-side">

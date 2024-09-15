@@ -42,8 +42,9 @@ const AboutContent = () => {
             </div>
               
                 <div className="takeMe">
-                <div className="aboutImage"></div>
+              
                 <div className="nextStepSection">
+                  
                     <h2>We offer a batch of services which include</h2>
                    
                         <ul>
@@ -53,7 +54,7 @@ const AboutContent = () => {
                             <li>Running Ads</li>
                             <li>Brand Awareness</li>                       
                         </ul> 
-                    <h4>For these and more about our Services, Visit our <Link to="/Services">Services </Link>page</h4>
+                    <p>For these and more about our Services, Visit our <Link to="/Services">Services </Link>page</p>
 
                    
                     </div>

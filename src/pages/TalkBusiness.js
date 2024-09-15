@@ -1,6 +1,9 @@
 
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 import { Footer, HelpUs } from '../components/MainSections';
 import '../components/Style-Business.css';
+import { Link } from 'react-router-dom';
 
 export const TalkBusiness = () => {
     return (
@@ -15,6 +18,16 @@ export const TalkBusiness = () => {
 }
 
 const BusinessContent = () => {
+
+    
+
+     
+    
+
+
+
+
+
     return (
         <div className="businessSection">
             <div className="newsletterSection" >
@@ -36,17 +49,25 @@ const BusinessContent = () => {
                     Our Extensive analysis capabilities allow us to use this content in the best possible way  and at the best possible time. This ensures that there is a lot is interaction and
                     involvement for your product
                 </p>
-                <button>Request Service</button>
+                <Link to="/RequestService"> <button >Request Service</button> </Link>
 
             </div>
             <div className="leadGenerator">
                 <h2>Lead Generation</h2>
                 <p> Social Media Management can directly contribbute to lead generation and sales by capturing the intrests of potential
                     clients and guiding them through the purchase journey</p>
-                <button>Request Service</button>
+               <Link to="/RequestService"> <button >Request Service</button> </Link>
             </div>
 
 
         </div>
     )
 }
+
+const ServiceForm=()=>{
+
+   
+}
+
+
+
