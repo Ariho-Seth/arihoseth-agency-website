@@ -33,6 +33,7 @@ export const RequestService=()=>{
                 <h2>Welcome to the Request Service page</h2>
     
         <div className='requestService'>
+           <div className="request-overlay"></div>
             <form ref={form} onSubmit={serviceRequest}>
                          <input type="text" name="message"  placeholder='type your message here...' id='input'/> <br />
                         <input type="text" name="user_name" placeholder='Your name...' /><br />
