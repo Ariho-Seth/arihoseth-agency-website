@@ -36,37 +36,37 @@ const ServiceContent = () => {
             
                         <p>We serve as valuable channels for driving traffic to your website or landing pages. By optimizing your socialmedia
                             platforms with clear call to action and compelling descriptions.
-                            By running targeted ad campagainsto promote specific products and servises to your audience
+                            By running targeted ad campagains to promote specific products and services to your audience.
                         </p>
                 </div>
                 <div className="leadGen" >
                         <h3>Generate Leads and Sales</h3>
-                        <p> Social Media Management can directly contribbute to lead generation and sales by capturing the intrests of potential
-                            clients and guiding them through the purchace journey</p>
+                        <p> Social Media Management can directly contribute to lead generation and sales by capturing the intrests of potential
+                            clients and guiding them through the purchase journey</p>
                  </div>
             </div>
 
             <div className="mycontentCreation">
                 <div className="contentOverlay"></div>
                 <h2>Content creation</h2>
-                <p>Content tells the story of your organisation. Also called storytelling. We create content for organisations that are perfectly suited for use on social media.
+                <p>Content tells the story of your organisation, also called storytelling. We create content for organisations that are perfectly suited for use on social media.
                     Our extensive analysis capabilities allow us to use this content in the best way possible and at the best possible time.<br />
-                    This ensures that there is a lot of interaction and involvemrnt for your product or service. We also work with a monthy content calender for your organisation
-                    This calender is based on extensive analysis so we can take control of your organisation when communicatng content on social media.    
+                    This ensures that there is a lot of interaction and involvement for your product or service. We also work with a monthy content calender for your organisation
+                    This calender is based on extensive analysis so we can take control of your organisation when communicating content on social media.    
                 </p>
             </div>
                 <div className="runningAds">
                     <div className="googleAds">
                         <h2>Google Ads</h2>
                        <p> Advertising is the heart of Marketing and business growth, As an Agency, we set you a platform to showcase your products and services on an extended
-                        area. We help you run adds on all google platforms like Youtube. Thus setting your products or services to potential leads that may help you generation sales<br />
+                        scope. We help you run adds on all google platforms like Youtube. Thus setting your products or services to potential leads that may help you generation sales<br />
                         Running Ads can be done depending on the clients needs, target audience, and time of action.
                         </p>
                     </div>
                     <div className="facebookAds">
                         <h2>Meta Ads</h2>
                         <p>
-                            One other to help you, your business or company generate potential leads is by running Ads across the Meta environment
+                            One other to help you, your business or company generate potential leads is by running Ads across the Meta environment.
                             We help you get in touch with new client by running Ads across all meta platforms like Facebook and Instagram. Thus Providing
                             you an opportunity talk to potential customers helping you increase your sales 
                         </p>

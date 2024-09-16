@@ -39,7 +39,7 @@ export const RequestService=()=>{
                         <input type="text" name="user_name" placeholder='Your name...' /><br />
                         <input type="email" name="user_email"  placeholder='Your Email...'/> <br />
                         
-                        <input type="submit" value="Subscribe" id='button'/>
+                        <input type="submit" value="Request Service" id='button'/>
 
             </form>
         </div>

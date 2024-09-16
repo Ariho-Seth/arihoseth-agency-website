@@ -77,7 +77,7 @@ export const Footer = () => {
                 <div className="left-side">
                     <p>Our News Lettter</p>
                     <p>Talk to Me!</p>
-                    <p>Terms & Conditions</p>
+                    <Link to="/PrivacyPolicy"><p>Terms & Conditions</p> </Link>
                     <p>Visit Offices</p>
                     <h2 >Talk to us today!</h2>
                 </div>

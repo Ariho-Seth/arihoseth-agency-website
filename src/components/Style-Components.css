@@ -103,7 +103,7 @@
         background-color: rgb(20, 20, 20);
         padding: 10px;
     }
-    .right-side a{
+    .right-side a, .left-side a{
         color: white;
         text-decoration: none;
     }

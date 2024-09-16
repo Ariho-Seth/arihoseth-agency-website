@@ -11,6 +11,7 @@ import { RequestService } from './pages/RequestService';
 import { FaInstagramSquare, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
+import { Privacy } from './pages/PrivacyPolicy';
 
 
 
@@ -40,6 +41,7 @@ const Navigator = () => {
           <Route path="/Services" element={<Services />} />
           <Route path="/TalkBusiness" element={<TalkBusiness />} />
           <Route path='/RequestService' element={<RequestService />} />
+          <Route path='/PrivacyPolicy' element={<Privacy />} />
         </Routes>
 
       </Routers>
